@@ -17,7 +17,7 @@ env:
 
 jobs:
   windows_x86_shared:
-    if: false
+    # if: false
     name: Shared lib for windows x86
     runs-on: ${{ matrix.os }}
     strategy:
